@@ -1,0 +1,11 @@
+{
+  "name": "urlsafe-b64",
+  "version": "0.1.0",
+  "repo": "Akagi201/urlsafe-b64",
+  "description": "The standard 'base64url' with URL and Filename Safe Alphabet described in RFC 4648",
+  "license": "MIT",
+  "src": [
+    "src/b64.c",
+    "src/b64.h"
+  ]
+}
