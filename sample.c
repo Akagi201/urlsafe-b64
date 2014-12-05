@@ -8,9 +8,6 @@
 
 #include <stdio.h>
 #include <string.h>
-#include <ldap.h>
-#include <lber.h>
-#include <AudioToolbox/AudioToolbox.h>
 #include "b64.h"
 
 int main(int argc, char *argv[]) {
