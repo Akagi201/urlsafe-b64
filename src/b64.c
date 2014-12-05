@@ -3,8 +3,7 @@
 *
 * Copyright (C) 2010 Creytiv.com
 */
-//#include <types.h>
-//#include <fmt.h>
+
 #include "b64.h"
 #include <errno.h>
 
