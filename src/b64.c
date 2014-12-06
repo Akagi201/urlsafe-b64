@@ -170,6 +170,8 @@ int urlsafe_b64_encode(const uint8_t *in, size_t ilen, char *out, size_t *olen) 
         ++out_index;
     }
 
+    *out_index = '\0';
+
     return 0;
 
 }
@@ -186,6 +188,8 @@ int urlsafe_b64_decode(const char *in, size_t ilen, uint8_t *out, size_t *olen) 
         *in_index = safe_to_b64(*in_index);
         ++in_index;
     }
+
+    *in_index = '\0';
 
     ret = b64_decode(in, ilen, out, olen);
 
