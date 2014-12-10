@@ -166,7 +166,7 @@ int urlsafe_b64_encode(const uint8_t *in, size_t ilen, char *out, size_t *olen) 
     out_index = out;
 
     for (; out_index < out_end;) {
-        *out_index++ = b64_to_safe(*out_index);
+        *out_index = b64_to_safe(*out_index);
         ++out_index;
     }
 
